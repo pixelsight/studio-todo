@@ -6,6 +6,13 @@
 
 }
 
+input.digit-Textfield {
+    margin-bottom:4px;
+    
+    
+    
+}
+
 .digit-Button.mybutton2 {
     background-color:rgba(255,0,0,1.0);
     color:rgba(255,255,255,1.0);
