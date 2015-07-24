@@ -65,6 +65,24 @@
                 }
             ]
         },
+        "list": {
+            "prototype": "digit/ui/list.reel",
+            "properties": {
+                "element": {"#": "list"}
+            }
+        },
+        "listItem": {
+            "prototype": "digit/ui/list-item.reel",
+            "properties": {
+                "element": {"#": "listItem"}
+            }
+        },
+        "select": {
+            "prototype": "digit/ui/select.reel",
+            "properties": {
+                "element": {"#": "select"}
+            }
+        },
         "taskCell": {
             "prototype": "ui/task-cell.reel",
             "properties": {
@@ -95,7 +113,7 @@
     </script>
 </head>
 <body>
-    <div data-montage-id="main" data-montage-skin="dark" class="Main">
+    <div data-montage-id="main" data-montage-skin="default" class="Main">
         <h1 data-montage-id="title"></h1>
         <button class="mybutton" data-montage-id="addTaskButton">
 
@@ -103,7 +121,16 @@
         <output data-montage-id="badge">
 
         </output>
-        <button class="mybutton" data-montage-id="clearCompletedButton"></button>
+        <button class="mybutton" data-montage-id="clearCompletedButton">
+            <select data-montage-id="select">
+                <option value="">
+                    Select
+                </option>
+            </select>
+        </button>
+        <ul data-montage-id="list">
+            <li></li>
+        </ul>
         <ul data-montage-id="taskList">
             <li data-montage-id="taskCell">
                 Item

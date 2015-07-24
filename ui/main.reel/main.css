@@ -6,8 +6,9 @@
 
 }
 
-.digit-Button.mybutton {
+.digit-Button.mybutton2 {
     background-color:rgba(255,0,0,1.0);
+    color:rgba(255,255,255,1.0);
     border:3px solid red;
     background-image:-webkit-linear-gradient(top, rgba(0,0,0,0.0) 0%, rgba(0,0,0,0) 100%);
     border-radius:20px;
@@ -16,7 +17,7 @@
     
 }
 
-.digit-Button.mybutton:hover {
+.digit-Button.mybutton2:hover {
     background-color:rgba(0,255,0,1.0);
     border:3px solid blue;
     border-radius:10px;
