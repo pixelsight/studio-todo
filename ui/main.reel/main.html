@@ -47,6 +47,13 @@
                 "value": {"<-": "@tasksController.organizedContent.filter{!completed}.length"}
             }
         },
+        "Character": {
+            "prototype": "digit/ui/text.reel",
+            "properties": {
+                "element": {"#": "Character"},
+                "value": "Character"
+            }
+        },
         "clearCompletedButton": {
             "prototype": "digit/ui/button.reel",
             "properties": {
@@ -65,17 +72,11 @@
                 }
             ]
         },
-        "listItem": {
-            "prototype": "digit/ui/list-item.reel"
-        },
         "select": {
             "prototype": "digit/ui/select.reel",
             "properties": {
                 "element": {"#": "select"}
             }
-        },
-        "select2": {
-            "prototype": "digit/ui/select.reel"
         },
         "taskCell": {
             "prototype": "ui/task-cell.reel",
@@ -124,11 +125,14 @@
         <button class="mybutton" data-montage-id="clearCompletedButton">
 
         </button>
+        <span data-montage-id="Character"></span>
         <select data-montage-id="select">
             <option value="Wilma" data-montage-id="test1">
                 Wilma
             </option>
-            <option data-montage-id="test2" value="Fred">Fred</option>
+            <option data-montage-id="test2" value="Fred">
+                Fred
+            </option>
         </select>
         <ul data-montage-id="taskList">
             <li data-montage-id="taskCell">
