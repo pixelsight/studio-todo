@@ -65,11 +65,17 @@
                 }
             ]
         },
+        "listItem": {
+            "prototype": "digit/ui/list-item.reel"
+        },
         "select": {
             "prototype": "digit/ui/select.reel",
             "properties": {
                 "element": {"#": "select"}
             }
+        },
+        "select2": {
+            "prototype": "digit/ui/select.reel"
         },
         "taskCell": {
             "prototype": "ui/task-cell.reel",
@@ -89,6 +95,12 @@
         },
         "tasksController": {
             "prototype": "montage/core/range-controller"
+        },
+        "test1": {
+            "prototype": "digit/ui/list-item.reel",
+            "properties": {
+                "element": {"#": "test1"}
+            }
         },
         "title": {
             "prototype": "digit/ui/title.reel",
@@ -113,9 +125,10 @@
 
         </button>
         <select data-montage-id="select">
-            <option value="">
+            <option value="" data-montage-id="test1">
                 Select
             </option>
+            <option data-montage-id="test2"></option>
         </select>
         <ul data-montage-id="taskList">
             <li data-montage-id="taskCell">
