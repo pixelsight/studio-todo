@@ -1,3 +1,8 @@
 .TaskCell--completed {
     opacity: 0.2;
 }
+
+.TaskCell {
+    margin-top:4px;
+    background-color:rgba(255,255,255,.2);
+}
