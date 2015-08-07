@@ -4,5 +4,8 @@
 
 .TaskCell {
     margin-top:4px;
-    background-color:rgba(255,255,255,.2);
+}
+
+.TaskCellField {
+    background-color:rgba(255,255,255,.4);
 }
