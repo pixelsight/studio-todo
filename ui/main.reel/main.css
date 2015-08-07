@@ -8,7 +8,7 @@
 
 
 
-.digit-Button.mybutton2 {
+.addButton {
     background-color:rgba(255,0,0,1.0);
     color:rgba(255,255,255,1.0);
     border:3px solid red;
@@ -19,7 +19,7 @@
     
 }
 
-.digit-Button.mybutton2:hover {
+.addButton:hover {
     background-color:rgba(0,255,0,1.0);
     border:3px solid blue;
     border-radius:10px;
