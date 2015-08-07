@@ -50,7 +50,6 @@
         "Character": {
             "prototype": "digit/ui/text.reel",
             "properties": {
-                "element": {"#": "Character"},
                 "value": "Character"
             }
         },
@@ -73,10 +72,7 @@
             ]
         },
         "select": {
-            "prototype": "digit/ui/select.reel",
-            "properties": {
-                "element": {"#": "select"}
-            }
+            "prototype": "digit/ui/select.reel"
         },
         "taskCell": {
             "prototype": "ui/task-cell.reel",
@@ -98,10 +94,7 @@
             "prototype": "montage/core/range-controller"
         },
         "test1": {
-            "prototype": "digit/ui/list-item.reel",
-            "properties": {
-                "element": {"#": "test1"}
-            }
+            "prototype": "digit/ui/list-item.reel"
         },
         "title": {
             "prototype": "digit/ui/title.reel",
@@ -125,15 +118,6 @@
         <button class="mybutton" data-montage-id="clearCompletedButton">
 
         </button>
-        <span data-montage-id="Character"></span>
-        <select data-montage-id="select">
-            <option value="Wilma" data-montage-id="test1">
-                Wilma
-            </option>
-            <option data-montage-id="test2" value="Fred">
-                Fred
-            </option>
-        </select>
         <ul data-montage-id="taskList">
             <li data-montage-id="taskCell">
                 Item
